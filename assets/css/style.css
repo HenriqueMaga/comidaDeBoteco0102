@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(85, 81, 81);
+}
+ul, ol li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.menu{
+    background-color: gainsboro;
+    display: flex;
+    position: relative;
+}
+.menu li{
+    display: inline;
+    padding-left: 12px;
+    margin: 0 auto;
+}
+.menu img{
+    width: 9vh;
+    height: 9vh;
+}
+.imagem{
+    /* border: solid blue 2px; */
+    border-radius: 50%;
+}
+.banner{
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-image: url('../images/Fundo.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+.banner h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10vh;
+    text-align: center;
+    color: whitesmoke;
+}
+.banner p{
+    color: black;
+    font-weight: bold;
+}
+.banner p{
+    text-align: center;
+}
+#receita-bolovo{
+    margin-top: 4vh;
+}
+#receita-bolovo img, p{
+    display: flex;
+}
