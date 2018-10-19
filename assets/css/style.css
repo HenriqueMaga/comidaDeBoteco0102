@@ -20,7 +20,9 @@ a:hover{
 .menu{
     background-color: gainsboro;
     display: flex;
-    position: relative;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 .menu li{
     display: inline;
@@ -28,8 +30,8 @@ a:hover{
     margin: 0 auto;
 }
 .menu img{
-    width: 9vh;
-    height: 9vh;
+    width: 8vh;
+    height: 8vh;
 }
 .imagem{
     /* border: solid blue 2px; */
@@ -37,7 +39,7 @@ a:hover{
 }
 .banner{
     padding-top: 30vh;
-    padding-bottom: 30vh;
+    padding-bottom: 40vh;
     background-image: url('../images/Fundo.jfif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,13 +54,51 @@ a:hover{
 .banner p{
     color: black;
     font-weight: bold;
-}
-.banner p{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
-#receita-bolovo{
+.receita-bolovo{
     margin-top: 4vh;
-}
-#receita-bolovo img, p{
     display: flex;
+    align-items: center;
+}
+.receita-bolovo p{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#titulo1 {
+    display: center;
+}
+.bolovo{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.bolovo div, article{
+    justify-content: center;
+    text-align: center;
+    padding: 3vh;
+}
+/* .bolovo-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3vh;
+
+} */
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: darkturquoise;
+}
+footer ol{
+    display: inline;
+}
+footer > div > ol > li:first-child{
+    font-weight: bold;
+    margin-bottom: 2vh;
 }
